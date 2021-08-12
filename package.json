@@ -1,0 +1,37 @@
+{
+  "name": "th.suphakit.foodrand",
+  "displayName": "Food-RAND",
+  "version": "1.0.0",
+  "description": "Easiest way to find a menu for your fastest meal!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Suphakit P.",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.1.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-plugin-battery-status": "^2.0.3",
+    "cordova-plugin-splashscreen": "^6.0.0",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-battery-status": {},
+      "cordova-plugin-splashscreen": {}
+    },
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

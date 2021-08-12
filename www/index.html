@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, width=device-width, viewport-fit=cover">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="middle">
+        <h1>
+            <span id="shop-ran">กดปุ่มเพื่อสุ่มร้านก่อนไปสุ่มเมนูต่อ</span>
+        </h1>
+        <button type="button" onclick="rnd()" id="random">
+            สุ่มร้าน
+        </button>
+        <span class="hidden" id="warp">
+            <form action="random.html" method="GET">
+                <input type="text" class="hidden" name="id" id="id" value=" ">
+                <button type="submit">
+                    ไปยังหน้าสุ่มเมนู
+                </button>
+            </form>
+            <br>
+            <button type="button" onclick="re()">
+                สุ่มใหม่
+            </button>
+        </span>
+
+        <div class="go">
+
+        </div>
+    </div>
+    
+    <script>
+        window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        window.addEventListener("batterystatus", onBatteryStatus, false);
+        function onBatteryStatus(status) {
+                console.log("Level: " + status.level + " isPlugged: " + status.isPlugged);
+            }
+
+        window.addEventListener("batterylow", onBatteryLow, false);
+        function onBatteryLow(status) {
+            alert("Battery Level Low " + status.level + "%");
+        }
+
+        window.addEventListener("batterycritical", onBatteryCritical, false);
+        function onBatteryCritical(status) {
+                alert("Battery Level Critical " + status.level + "%\nRecharge Soon!");
+            }
+    </script>
+    <script src="./js/shopRAND.js"></script>
+</body>
+</html>
