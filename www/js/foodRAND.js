@@ -15,7 +15,7 @@ function congrat(){
 
 function dataFuc(data) {
 
-    // สำหรับสุมอาหาร
+    // สำหรับสุ่มอาหาร
     
 }
 
