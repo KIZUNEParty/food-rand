@@ -1,12 +1,20 @@
-let call = '{"shopname": [' +
-    '{"shop": "ครัวไท"},'+
-    '{"shop": "สเต็ก"},' +
-    '{"shop": "ก๋วยเตี๋ยว"},' +
-    '{"shop": "ข้าวไข่เจียว"}]}'
+// fetch Json
 
-const data = JSON.parse(call);
+function rnd(){
+    fetch("./db/main.json")
+    .then((response) => {
+        return response.json()
+    })
+    .then((data) => {
+        console.log(data)
+        dataFuc(data)
+    })
+    .catch((err) => {
+        console.log("error : " + err);
+    })
+}
 
-function rnd() {
+function dataFuc(data) {
     const id = Math.floor(Math.random() * 4);
     if (id == 0) {
         document.getElementById('shop-ran').innerHTML = data.shopname[0].shop
@@ -29,7 +37,11 @@ function rnd() {
         document.getElementById('random').classList.add('hidden')
         document.getElementById('warp').classList.remove('hidden')
     }
+    
 }
+
+// *** TEST เองนะ อิอิ ***
+
 
 function re() {
     document.getElementById('warp').classList.add('hidden')
