@@ -1,7 +1,7 @@
 // fetch Json
 
 function rnd(){
-    fetch("./db/main.json")
+    fetch("https://raw.githubusercontent.com/ProfDetermined/food-rand/master/www/db/main.json")
     .then((response) => {
         return response.json()
     })
@@ -17,7 +17,6 @@ function rnd(){
 function dataFuc(data) {
 
     // สุ่มร้าน
-    
     const id = Math.floor(Math.random() * 4);
     if (id == 0) {
         document.getElementById('shop-ran').innerHTML = data.shopname[0].shop
