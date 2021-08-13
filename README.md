@@ -12,7 +12,7 @@ npm i -g cordova
 git clone https://github.com/ProfDetermined/food-rand.git
 cd food-rand
 npm i
-cordova add <platform that you need>
+cordova platform add <platform that you need>
 cordova build <platform that you added>
 ```
 
