@@ -1,7 +1,7 @@
 //call url
 const getURL = window.location.href
 console.log(getURL)
-const id = getURL.substr(37)
+const id = getURL.substr(41)
 console.log(id)
 
 // declair span id
