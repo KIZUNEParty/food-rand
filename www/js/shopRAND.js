@@ -1,7 +1,7 @@
 // fetch Json
 
 function rnd(){
-    fetch("https://raw.githubusercontent.com/ProfDetermined/food-rand/master/www/db/main.json")
+    fetch("./db/main.json")
     .then((response) => {
         return response.json()
     })
