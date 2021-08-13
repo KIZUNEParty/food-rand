@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="th.suphakit.foodrand" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <!-- <icon src="res/icon.png" /> -->
+    <icon src="res/logo.png" />
     <name>Food-RAND</name>
     <description>
         Easiest way to find a menu for your fastest meal!!
