@@ -42,9 +42,7 @@ function dataFuc(data) {
     
 }
 
-// *** TEST เองนะ อิอิ ***
-
-
+// reset button
 function re() {
     document.getElementById('warp').classList.add('hidden')
     document.getElementById('random').classList.remove('hidden')
