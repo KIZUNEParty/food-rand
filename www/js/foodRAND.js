@@ -30,36 +30,52 @@ function dataFuc(data) {
     // สำหรับสุ่มอาหาร
     if (id == 0) {
         const rand_a = Math.floor(Math.random() * 4)
-        const rand_b = Math.floor(Math.random() * 3);
+        const rand_b = Math.floor(Math.random() * 3)
+        const item = data.shopname[0].item
 
         if (rand_a == 0) {
             menu.classList.add('hidden')
-            ta.innerHTML = data.shopname[0].item.a[0].a
+            ta.innerHTML = item.a[0].a
         } else if (rand_a == 1) {
             menu.classList.add('hidden')
-            ta.innerHTML = data.shopname[0].item.a[1].a
+            ta.innerHTML = item.a[1].a
         } else if (rand_a == 2) {
             menu.classList.add('hidden')
-            ta.innerHTML = data.shopname[0].item.a[2].a
+            ta.innerHTML = item.a[2].a
         } else if (rand_a == 3) {
             menu.classList.add('hidden')
-            ta.innerHTML = data.shopname[0].item.a[3].a
+            ta.innerHTML = item.a[3].a
         }
 
         if (rand_b == 0) {
             menu.classList.add('hidden')
-            tb.innerHTML = data.shopname[0].item.b[0].a
+            tb.innerHTML = item.b[0].a
         } else if (rand_b == 1) {
             menu.classList.add('hidden')
-            tb.innerHTML = data.shopname[0].item.b[1].a
+            tb.innerHTML = item.b[1].a
         } else if (rand_b == 2) {
             menu.classList.add('hidden')
-            tb.innerHTML = data.shopname[0].item.b[2].a
+            tb.innerHTML = item.b[2].a
         }
-    }
+    } else if (id == 1) {
+        const rand_a = Math.floor(Math.random() * 5)
 
-    if (id == 1) {
-
+        if (rand_a == 0) {
+            menu.classList.add('hidden')
+            ta.innerHTML = data.shopname[1].item[0].a
+        } else if (rand_a == 1) {
+            menu.classList.add('hidden')
+            ta.innerHTML = data.shopname[1].item[1].a
+        } else if (rand_a == 2) {
+            menu.classList.add('hidden')
+            ta.innerHTML = data.shopname[1].item[2].a
+        } else if (rand_a == 3) {
+            menu.classList.add('hidden')
+            ta.innerHTML = data.shopname[1].item[3].a
+        } else if (rand_a == 0) {
+            menu.classList.add('hidden')
+            ta.innerHTML = data.shopname[1].item[4].a
+        }
     }
 
     document.getElementById('rand').classList.add('hidden')
