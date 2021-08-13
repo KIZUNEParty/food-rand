@@ -59,22 +59,34 @@ function dataFuc(data) {
         }
     } else if (id == 1) {
         const rand_a = Math.floor(Math.random() * 5)
+        const food = data.shopname[1]
 
         if (rand_a == 0) {
             menu.classList.add('hidden')
-            ta.innerHTML = data.shopname[1].item[0].a
+            ta.innerHTML = food.item[0].a
         } else if (rand_a == 1) {
             menu.classList.add('hidden')
-            ta.innerHTML = data.shopname[1].item[1].a
+            ta.innerHTML = food.item[1].a
         } else if (rand_a == 2) {
             menu.classList.add('hidden')
-            ta.innerHTML = data.shopname[1].item[2].a
+            ta.innerHTML = food.item[2].a
         } else if (rand_a == 3) {
             menu.classList.add('hidden')
-            ta.innerHTML = data.shopname[1].item[3].a
+            ta.innerHTML = food.item[3].a
         } else if (rand_a == 0) {
             menu.classList.add('hidden')
-            ta.innerHTML = data.shopname[1].item[4].a
+            ta.innerHTML = food.item[4].a
+        }
+    } else if (id == 2) {
+        const rand_a = Math.floor(Math.random() * 7)
+        const rand_b = Math.floor(Math.random() * 3)
+        const rand_c = Math.floor(Math.random() * 4)
+
+        const a = data.shopname[2]
+
+        if (rand_a == 0) {
+            menu.classList.add('hidden')
+            ta.innerHTML = a.item[0]
         }
     }
 
