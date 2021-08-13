@@ -17,30 +17,24 @@
             <span>มื้อนี้ได้กิน~</span>
             <br>
             <span id="menu">กดสุ่มข้างล่างแล้วเดี๋ยวรู้เลย</span>
+            <span id="fix"></span>
+            <span id="a"></span>
+            <span id="b"></span>
+            <span id="c"></span>
         </h1>
         <button type="button" onclick="congrat()">
             สุ่มเมนูจ้า
         </button>
+        <span class="hidden">
+            <button type="button" onclick="congrat()">
+                สุ่มใหม่
+            </button>
+        </span>
     </div>
 
     <script src="js/foodRAND.js"></script>
     <script>
         window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-        window.addEventListener("batterystatus", onBatteryStatus, false);
-        function onBatteryStatus(status) {
-            console.log("Level: " + status.level + " isPlugged: " + status.isPlugged);
-        }
-
-        window.addEventListener("batterylow", onBatteryLow, false);
-        function onBatteryLow(status) {
-            alert("Battery Level Low " + status.level + "%");
-        }
-
-        window.addEventListener("batterycritical", onBatteryCritical, false);
-        function onBatteryCritical(status) {
-            alert("Battery Level Critical " + status.level + "%\nRecharge Soon!");
-        }
     </script>
 </body>
 </html>
