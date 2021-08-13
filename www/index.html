@@ -12,20 +12,31 @@
         <h1>
             <span id="shop-ran">กดปุ่มเพื่อสุ่มร้านก่อนไปสุ่มเมนูต่อ</span>
         </h1>
-        <button type="button" onclick="rnd()" id="random">
-            สุ่มร้าน
-        </button>
+        <span id="random">
+            <button type="button" onclick="rnd()">
+                สุ่มร้าน
+            </button>
+            <span>
+                &nbsp;&nbsp;
+            </span>
+            <button type="button" onclick="rnd()">
+                สุ่มร้าน
+            </button>
+        </span>
+        
         <span class="hidden" id="warp">
             <form action="random.html" method="GET">
                 <input type="text" class="hidden" name="id" id="id" value=" ">
                 <button type="submit">
-                    ไปยังหน้าสุ่มเมนู
+                    สุ่มเมนู
+                </button>
+                <span>
+                    &nbsp;&nbsp;
+                </span>
+                <button type="button" onclick="re()">
+                    สุ่มใหม่
                 </button>
             </form>
-            <br>
-            <button type="button" onclick="re()">
-                สุ่มใหม่
-            </button>
         </span>
 
         <div class="go">
