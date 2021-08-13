@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="th.suphakit.foodrand" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <icon src="res/icon.png" />
+    <icon src="res/logo.png" />
     <name>Food-RAND</name>
     <description>
         Easiest way to find a menu for your fastest meal!!
@@ -22,52 +22,5 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-    </platform>
-    <platform name="android">
-        <splash src="res/screen/android/splash-port-hdpi.png" density="hdpi"/>
-        <splash src="res/screen/android/splash-port-ldpi.png" density="ldpi"/>
-        <splash src="res/screen/android/splash-port-mdpi.png" density="mdpi"/>
-        <splash src="res/screen/android/splash-port-xhdpi.png" density="xhdpi"/>
-        <splash src="res/screen/android/splash-port-xxhdpi.png" density="xxhdpi"/>
-
-        <!-- Landscape -->
-        <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi" />
-        <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi" />
-        <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi" />
-        <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi" />
-        <splash src="res/screen/android/splash-land-xxhdpi.png" density="land-xxhdpi" />
-        <splash src="res/screen/android/splash-land-xxxhdpi.png" density="land-xxxhdpi" />
-
-        <!-- Portrait -->
-        <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi" />
-        <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi" />
-        <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi" />
-        <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi" />
-        <splash src="res/screen/android/splash-port-xxhdpi.png" density="port-xxhdpi" />
-        <splash src="res/screen/android/splash-port-xxxhdpi.png" density="port-xxxhdpi" />
-
-        <!-- Dark Mode -->
-        <splash src="res/screen/android/splash-land-night-hdpi.png" density="land-night-hdpi" />
-        <splash src="res/screen/android/splash-land-night-ldpi.png" density="land-night-ldpi" />
-        <splash src="res/screen/android/splash-land-night-mdpi.png" density="land-night-mdpi" />
-        <splash src="res/screen/android/splash-land-night-xhdpi.png" density="land-night-xhdpi" />
-        <splash src="res/screen/android/splash-land-night-xxhdpi.png" density="land-night-xxhdpi" />
-        <splash src="res/screen/android/splash-land-night-xxxhdpi.png" density="land-night-xxxhdpi" />
-
-        <splash src="res/screen/android/splash-port-night-hdpi.png" density="port-night-hdpi" />
-        <splash src="res/screen/android/splash-port-night-ldpi.png" density="port-night-ldpi" />
-        <splash src="res/screen/android/splash-port-night-mdpi.png" density="port-night-mdpi" />
-        <splash src="res/screen/android/splash-port-night-xhdpi.png" density="port-night-xhdpi" />
-        <splash src="res/screen/android/splash-port-night-xxhdpi.png" density="port-night-xxhdpi" />
-        <splash src="res/screen/android/splash-port-night-xxxhdpi.png" density="port-night-xxxhdpi" />
-    </platform>
-
-    <platform name="ios">
-        <splash src="res/screen/ios/Default@2x~universal~anyany.png" />
-        <splash src="res/screen/ios/Default@2x~universal~comany.png" />
-        <splash src="res/screen/ios/Default@2x~universal~comcom.png" />
-        <splash src="res/screen/ios/Default@3x~universal~anyany.png" />
-        <splash src="res/screen/ios/Default@3x~universal~anycom.png" />
-        <splash src="res/screen/ios/Default@3x~universal~comany.png" />
     </platform>
 </widget>
