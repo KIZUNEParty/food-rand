@@ -149,8 +149,7 @@ function dataFuc(data) {
         document.getElementById('fix').innerHTML = item.fix
 
         if (rand_a == 0) {
-            const a = Math.floor(Math.random() * 15)
-
+            const a = Math.floor(Math.random() * 18)
             ta.innerHTML = item.a[0].a
 
             if (a == 0) {
@@ -185,6 +184,61 @@ function dataFuc(data) {
                 tb.innerHTML = item.b[14].a
             } else if (a == 15) {
                 tb.innerHTML = item.b[15].a
+            } else if (a == 16) {
+                tb.innerHTML = item.b[19].a
+            } else if (a == 17) {
+                tb.innerHTML = item.b[17].a
+            } else if (a == 18) {
+                tb.innerHTML = item.b[20].a
+            }
+        } else if (rand_a == 2) {
+            const a = Math.floor(Math.random() * 16)
+            ta.innerHTML = item.a[2].a
+            if (a == 0) {
+                tb.innerHTML = item.b[0].a
+            } else if (a == 1) {
+                tb.innerHTML = item.b[1].a
+            } else if (a == 2) {
+                tb.innerHTML = item.b[2].a
+            } else if (a == 3) {
+                tb.innerHTML = item.b[5].a
+            } else if (a == 4) {
+                tb.innerHTML = item.b[6].a
+            } else if (a == 5) {
+                tb.innerHTML = item.b[16].a
+            } else if (a == 6) {
+                tb.innerHTML = item.b[8].a
+            } else if (a == 7) {
+                tb.innerHTML = item.b[5].a
+            } else if (a == 8) {
+                tb.innerHTML = item.b[11].a
+            } else if (a == 9) {
+                tb.innerHTML = item.b[7].a
+            } else if (a == 10) {
+                tb.innerHTML = item.b[3].a
+            } else if (a == 11) {
+                tb.innerHTML = item.b[10].a
+            } else if (a == 12) {
+                tb.innerHTML = item.b[13].a
+            } else if (a == 13) {
+                tb.innerHTML = item.b[14].a
+            } else if (a == 14) {
+                tb.innerHTML = item.b[17].a
+            } else if (a == 15) {
+                tb.innerHTML = item.b[20].a
+            } else if (a == 16) {
+                tb.innerHTML = item.b[18].a
+            }
+        } else if (rand_a == 1) {
+            ta.innerHTML = item.a[1].a
+            tb.innerHTML = ""
+        } else if (rand_a == 3) {
+            const a = Math.floor(Math.random() * 2)
+            ta.innerHTML = item.a[1].a
+            if (a == 0) {
+                tb.innerHTML = item.b[16].a
+            } else if (a == 1) {
+                tb.innerHTML = item.b[8].a
             }
         }
 
