@@ -19,6 +19,6 @@ cordova build <platform that you added>
 
 > If you want to buy us a coffee
 >
-> [Detzz's ko-fi :coffee:](https://ko-fi.com/georgep)
+> [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B71V63A)
 >
 > [Donation Site](https://detzz-d.carrd.co/)
