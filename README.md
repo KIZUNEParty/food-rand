@@ -1,6 +1,6 @@
 
 # Food Randomiser
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FProfDetermined%2Ffood-rand&countColor=%23263759)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FMWMK-Party%2Ffood-rand&countColor=%23263759)
 ## Easiest and Fastest way for you to find a menu for your meal if you're in __UPDorm__!!
 
 
